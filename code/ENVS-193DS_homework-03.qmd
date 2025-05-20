@@ -1,5 +1,5 @@
 ---
-title: "ENVS-193DS_homework-03"
+title: "ENVS 193DS Homework 3"
 author: "Ellie Schomberg"
 date: "05-28-2025"
 format: html
@@ -16,5 +16,14 @@ library(here)
 library(flextable)
 library(janitor)
 library(readxl)
+
+# reading in data
+personal_data <- read.csv("updated_personal_data.csv")
 ```
+
+# Problem 1. Personal Data
+
+## a. Summarizing data
+
+For my project, I am testing to see if the type of swimming workout that I do, each with different yardages and levels of intensity, influences the average amount of sleep I get per night. I am comparing the mean between groups, and I believe that more intense workouts will cause me to sleep more.
 
