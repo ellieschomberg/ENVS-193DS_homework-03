@@ -35,4 +35,16 @@ personal_data_clean <- read.csv("data/updated_personal_data.csv") |> # start wit
   clean_names() # clean up the column names
 ```
 
+```{r jitterplot}
+ggplot(data = personal_data_clean, # starting with personal_data_clean data frame
+       aes(x = type_of_workout, # x axis is type of workout
+           y = amount_of_sleep_hours, # y axis is amount of sleep
+           color = type_of_workout)) + # color by type of workout
+  geom_jitter(width = 0.1, # changing width of points
+              height = 0, # making sure points don't jitter vertically
+              alpha = 0.4, # changing transparency
+              shape = 21) # changing shape
+
+```
+
 
