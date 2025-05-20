@@ -2,6 +2,7 @@
 title: "ENVS-193DS_homework-03"
 author: "Ellie Schomberg"
 date: "05-28-2025"
+Link to GitHub repository is [here](https://github.com/ellieschomberg/ENVS-193DS_homework-03.git)
 format: html
 ---
 
