@@ -8,6 +8,7 @@ format: html
 Link to GitHub repository is [here](https://github.com/ellieschomberg/ENVS-193DS_homework-03.git)
 
 # Set Up
+
 ```{r set up}
 #| message: FALSE
 # reading in packages
@@ -18,7 +19,7 @@ library(janitor)
 library(readxl)
 
 # reading in data
-personal_data <- read.csv("updated_personal_data.csv")
+personal_data <- read.csv("data/updated_personal_data.csv")
 ```
 
 # Problem 1. Personal Data
@@ -26,4 +27,12 @@ personal_data <- read.csv("updated_personal_data.csv")
 ## a. Summarizing data
 
 For my project, I am testing to see if the type of swimming workout that I do, each with different yardages and levels of intensity, influences the average amount of sleep I get per night. I am comparing the mean between groups, and I believe that more intense workouts will cause me to sleep more.
+
+## b. Visualization
+
+```{r cleaning data}
+personal_data_clean <- read.csv("data/updated_personal_data.csv") |> # start with updated_personal_data data frame
+  clean_names() # clean up the column names
+```
+
 
