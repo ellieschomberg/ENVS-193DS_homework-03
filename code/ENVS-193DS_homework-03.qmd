@@ -1,0 +1,18 @@
+---
+title: "ENVS-193DS_homework-03"
+author: "Ellie Schomberg"
+date: "05-28-2025"
+format: html
+---
+
+# Set Up
+```{r set up}
+#| message: FALSE
+# reading in packages
+library(tidyverse)
+library(here)
+library(flextable)
+library(janitor)
+library(readxl)
+```
+
