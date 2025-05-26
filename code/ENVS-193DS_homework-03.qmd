@@ -87,3 +87,30 @@ ggplot(data = personal_data_clean, # starting with personal_data_clean data fram
 
 **Figure 1. Type of swimming workout completed compared to average sleep.**
 Points represent observations of individual nights of sleep after completing a specific type of swimming workout (total n = 23). Colors represent the different types of workouts (Dark blue = Aerobic, Magenta = 200 Free, Teal = 500 Free, Light blue = 1650 Free, Green = Racing). Bold points represent the mean amount of sleep in hours for each type of workout, and the bars represent the standard error around the mean.
+
+## d. Table presentation
+
+```{r tbale}
+table_input <- head(personal_data_summary) %>% 
+  select(type_of_workout, mean, sd, se, ci_lower, ci_upper) %>%
+  mutate(mean = round(mean, 1),
+         sd = round(sd, 1),
+         se = round(se, 1),
+         ci_lower = round(ci_lower, 1),
+         ci_upper = round(ci_upper, 1)) %>%
+  rename("Type of Workout" = type_of_workout,
+         "Mean" = mean,
+         "Standard Deviation" = sd,
+         "Standard Error" = se,
+         "CI Lower Bound" = ci_lower,
+         "CI Upper Bound" = ci_upper)
+ft <- flextable(table_input) %>%
+  set_caption("Table 1. Summary of Personal Data") %>%
+  autofit() %>%
+  theme_box() %>% 
+  bold(part = "header") %>%
+  fontsize(size = 10) %>%
+  border_inner()
+ft
+```
+
