@@ -114,3 +114,5 @@ ft <- flextable(table_input) %>%
 ft
 ```
 
+
+# Problem 2. Affective Visualization
