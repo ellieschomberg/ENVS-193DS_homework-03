@@ -116,3 +116,23 @@ ft
 
 
 # Problem 2. Affective Visualization
+
+## a. Describe in words what an affective visualization could look like for your personal data
+
+Since I am comparing the type of swimming workout I do to the amount of hours I sleep, I thought it would be really cool to try and make the background look like a pool, and have the bold points for the means look like a swimmer. The different types of workouts each have different ranges of yardages, some longer and some shorter. I think if I can do it, it would be really cool to make my plot look like a pool, where the swimmers appear to be "racing", and each swimmer in their "lane" is one of the different workout categories. It looks like they are different lengths across the pool, and those points represent the mean amount of sleep I calculated for each of the different workouts.
+
+## b. Create a sketch of your idea
+
+## c. Make a draft of your visualization
+
+## d. Write an artist statement
+
+# Problem 3. Statistical critique
+
+## a. Revisit and summarize
+
+## b. Visual clarity
+
+## c. Aesthetic clarity
+
+## d. Recommendations
