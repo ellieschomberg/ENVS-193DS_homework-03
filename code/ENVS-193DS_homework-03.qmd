@@ -19,7 +19,7 @@ library(janitor)
 library(readxl)
 
 # reading in data
-personal_data <- read.csv("data/updated_personal_data.csv")
+personal_data <- read.csv(here("data", "updated_personal_data.csv"))
 ```
 
 # Problem 1. Personal Data
@@ -31,7 +31,7 @@ For my project, I am testing to see if the type of swimming workout that I do, e
 ## b. Visualization
 
 ```{r cleaning data}
-personal_data_clean <- read.csv("data/updated_personal_data.csv") |> # start with updated_personal_data data frame
+personal_data_clean <- read.csv(here("data", "updated_personal_data.csv")) |> # start with updated_personal_data data frame
   clean_names() # clean up the column names
 ```
 
