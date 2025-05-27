@@ -127,9 +127,23 @@ Since I am comparing the type of swimming workout I do to the amount of hours I 
 
 ## d. Write an artist statement
 
+In my piece, I am showing how the type of swimming workout I do influences the amount of sleep I get at night. Each type of workout has varying levels of intensity and yardage, and I am interested in conveying how these factors affect my sleep.
+
+I found Jill Pelto's paintings as inspiration for my work. I wanted to paint a picture with my data, and I tried to do that by making my visualization look like a competition swimming pool.
+
+The form of my work is...
+
+To create my affective visualization...
+
 # Problem 3. Statistical critique
 
 ## a. Revisit and summarize
+
+The main statistical test that the authors use in this paper to test their research question is a Chi-squared analysis. The authors are interested in seeing how different MPA characteristics impact the social well-being of fishing communities. Although I chose to describe the table in Homework 2, I will be critiquing the figure for this Homework, as it shows the results of the Chi-squared test.
+
+![Table 1.](table 1.png)
+
+![Figure 1.](figure 1.png)
 
 ## b. Visual clarity
 
