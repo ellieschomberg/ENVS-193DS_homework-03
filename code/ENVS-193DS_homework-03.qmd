@@ -139,7 +139,7 @@ To create my affective visualization...
 
 ## a. Revisit and summarize
 
-The main statistical test that the authors use in this paper to test their research question is a Chi-squared analysis. The authors are interested in seeing how different MPA characteristics impact the social well-being of fishing communities. Although I chose to describe the table in Homework 2, I will be critiquing the figure for this Homework, as it shows the results of the Chi-squared test.
+The main statistical test that the authors use in this paper to test their research question is a Chi-squared analysis. The authors are interested in seeing how different MPA characteristics impact the social well-being of fishing communities. Although I chose to describe the table in Homework 2, I will be critiquing the figure for this assignment, as it shows the results of the Chi-squared test.
 
 ![Table 1.](table 1.png)
 
@@ -147,6 +147,12 @@ The main statistical test that the authors use in this paper to test their resea
 
 ## b. Visual clarity
 
+The authors visually represented their statistics using a histogram to depict the frequency of the changes in each social category. On the x axis, they have each of the factors that they used to represent social well being, like food security, resource control, employment, community organization, and income, as well as areas for increase, no change, and decrease for each factor. The y axis is the frequency for the histogram, which in this case is the number of fisher subgroups. Because it is a histogram, there are no summary statistics to display, but they do show the p-value for the results that were statistically significant.
+
 ## c. Aesthetic clarity
 
+I think the authors could have made the figure more aesthetically pleasing. The figure was all black and white, and they used different combinations of lines and shades of gray to show the differences in gear, which did make the figure hard to read in my opinion. I would say that the data: ink ratio isn't bad, but the manner in which they chose to show the differences in gear and net types could be clearer. I felt that I wasn't really able to understand fully what was being shown in the figure until I fully read through the Results section.
+
 ## d. Recommendations
+
+One recommendation that I would give to the authors of this paper is to take out the social-well being categories that did not have statistically significant results. They could easily explain in the results and discussion section of the paper that due to small sample sizes, some of the factors did not have significant results. In my opinion, taking out these categories and focusing on the ones that did have significant results would make the figure look less cluttered. Another recommendation that I have is to take out the differences in gear, line, and net type from the histogram. While it does show extra layers and dimensions to the results, the point of a histogram is to show frequency distributions, and I felt that adding the gear groups cluttered the figure and made it much harder to read and digest. I think that if the authors really wanted to include that information, they could add another figure to the paper to display those results in a different way.
