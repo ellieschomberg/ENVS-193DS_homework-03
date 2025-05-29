@@ -4,7 +4,7 @@
 
 ## General Information
 
-This is the repository for the Homework 3 assignment. In this assignment, I created a visualization for my personal, outlined an affective visualization, and critiqued a figure of a statistical test. 
+This is the repository for the Homework 3 assignment. In this assignment, I created a visualization for my personal data, outlined an affective visualization, and critiqued a figure of a statistical test. 
 
 ## Data and file information
 
@@ -15,6 +15,7 @@ Code:
 - `figure 1.png`: figure for statistical critique
 - `table 1.png`: table for statistical critique
 - `IMG_0085.jpg`: sketch for affective visualization
+- `IMG_6505.JPG`: draft of affective visualization
 
 Data:
 - `updated_personal_data.csv`: file for personal data collection
