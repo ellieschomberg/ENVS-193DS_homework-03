@@ -4,7 +4,7 @@
 
 ## General Information
 
-This is the repository for the Homework 3 assignment. In this assignment, I created a visualization for my personal data collection, outlined an affective visualization, and critiqued a figure of a statistical test. 
+This is the repository for the Homework 3 assignment. In this assignment, I created a visualization for my personal, outlined an affective visualization, and critiqued a figure of a statistical test. 
 
 ## Data and file information
 
@@ -13,7 +13,7 @@ Code:
 - `ENVS-193DS_homework-03.html`: rendered version of `ENVS-193DS_homework-03.qmd`
 - `ENVS-193DS_homework-03_files`: accessory files for `ENVS-193DS_homework-03.html`
 - `figure 1.png`: figure for statistical critique
-- `table 1.png`: image of table for statistical critiqur
+- `table 1.png`: table for statistical critique
 - `IMG_0085.jpg`: sketch for affective visualization
 
 Data:

@@ -2,7 +2,9 @@
 title: "ENVS 193DS Homework 3"
 author: "Ellie Schomberg"
 date: "05-28-2025"
-format: html
+format: 
+  html:
+   toc: true
 ---
 
 Link to GitHub repository is [here](https://github.com/ellieschomberg/ENVS-193DS_homework-03.git)
@@ -91,29 +93,29 @@ Points represent observations of individual nights of sleep after completing a s
 ## d. Table presentation
 
 ```{r tbale}
-table_input <- head(personal_data_summary) %>% 
-  select(type_of_workout, mean, sd, se, ci_lower, ci_upper) %>%
-  mutate(mean = round(mean, 1),
+table_input <- head(personal_data_summary) %>% # creating table input using data summary
+  select(type_of_workout, mean, sd, se, ci_lower, ci_upper) %>% # selecting the columns of interest
+  mutate(mean = round(mean, 1), # rounding numbers to one decimal place
          sd = round(sd, 1),
          se = round(se, 1),
          ci_lower = round(ci_lower, 1),
          ci_upper = round(ci_upper, 1)) %>%
-  rename("Type of Workout" = type_of_workout,
+  rename("Type of Workout" = type_of_workout, # renaming the column titles
          "Mean" = mean,
          "Standard Deviation" = sd,
          "Standard Error" = se,
          "CI Lower Bound" = ci_lower,
          "CI Upper Bound" = ci_upper)
-ft <- flextable(table_input) %>%
-  set_caption("Table 1. Summary of Personal Data") %>%
-  autofit() %>%
-  theme_box() %>% 
-  bold(part = "header") %>%
-  fontsize(size = 10) %>%
-  border_inner()
+ft <- flextable(table_input) %>% # creating the table using input 
+  set_caption("Table 1. Summary of Personal Data") %>% # adding a caption
+  autofit() %>% # autofitting the widths of the columns
+  theme_box() %>% # adding a box around the outside
+  bold(part = "header") %>% # bolding the column titles
+  fontsize(size = 10) %>% # changing font size
+  border_inner() # adding inner borders to the table
 ft
 ```
-
+Table 1. Summary of Personal Data
 
 # Problem 2. Affective Visualization
 
@@ -127,7 +129,7 @@ Since I am comparing the type of swimming workout I do to the amount of hours I 
 
 ## c. Make a draft of your visualization
 
-
+![Pencil outline for painting](IMG_6505.JPG)
 
 ## d. Write an artist statement
 
@@ -135,9 +137,9 @@ In my piece, I am showing how the type of swimming workout I do influences the a
 
 I found Jill Pelto's paintings as inspiration for my work. I wanted to paint a picture with my data, and I tried to do that by making my visualization look like a competition swimming pool.
 
-The form of my work is...
+The form of my work is going to be a painting, where the plot of my data visualization looks like a pool.
 
-To create my affective visualization, I first explored the artists that were given, and decideded that I wanted to create a painting to represent my data.
+To create my affective visualization, I first explored the artists that were given, and decideded that I wanted to create a painting to represent my data. I then drew a quick sketch, and made my first draft, which was just drawn in pencil. My next steps are going to be actually painting over my pencil outline.
 
 # Problem 3. Statistical critique
 
@@ -151,12 +153,12 @@ The main statistical test that the authors use in this paper to test their resea
 
 ## b. Visual clarity
 
-The authors visually represented their statistics using a histogram to depict the frequency of the changes in each social category. On the x axis, they have each of the factors that they used to represent social well being, like food security, resource control, employment, community organization, and income, as well as areas for increase, no change, and decrease for each factor. The y axis is the frequency for the histogram, which in this case is the number of fisher subgroups. Because it is a histogram, there are no summary statistics to display, but they do show the p-value for the results that were statistically significant.
+The authors visually represented their statistics using a histogram to depict the frequency of the changes in each social category. On the x axis, they have each of the factors that they used to represent social well being, like food security, resource control, employment, community organization, and income, with bars representing increase, no change, and decrease for each factor. The y axis is the frequency for the histogram, which in this case is the number of fisher subgroups. Because it is a histogram, there are no summary statistics to display, but they do show the p-value for the results that were statistically significant.
 
 ## c. Aesthetic clarity
 
-I think the authors could have made the figure more aesthetically pleasing. The figure was all black and white, and they used different combinations of lines and shades of gray to show the differences in gear, which did make the figure hard to read in my opinion. I would say that the data: ink ratio isn't bad, but the manner in which they chose to show the differences in gear and net types could be clearer. I felt that I wasn't really able to understand fully what was being shown in the figure until I fully read through the Results section.
+I think the authors could have made the figure more aesthetically pleasing. The figure was all black and white, and they used different combinations of lines and shades of gray to show the differences in gear, which did make the figure hard to read in my opinion. I would say that the data: ink ratio isn't bad, but the manner in which they chose to show the differences in gear and net types could be clearer. I felt that I wasn't able to understand what was being shown in the figure until I fully read through the Results section.
 
 ## d. Recommendations
 
-One recommendation that I would give to the authors of this paper is to take out the social-well being categories that did not have statistically significant results. They could easily explain in the results and discussion section of the paper that due to small sample sizes, some of the factors did not have significant results. In my opinion, taking out these categories and focusing on the ones that did have significant results would make the figure look less cluttered. Another recommendation that I have is to take out the differences in gear, line, and net type from the histogram. While it does show extra layers and dimensions to the results, the point of a histogram is to show frequency distributions, and I felt that adding the gear groups cluttered the figure and made it much harder to read and digest. I think that if the authors really wanted to include that information, they could add another figure to the paper to display those results in a different way.
+One recommendation that I would give to the authors of this paper is to take out the social well being categories that did not have statistically significant results. They could easily explain in the Results and Discussion section of the paper that due to small sample sizes, some of the factors did not have significant results. In my opinion, taking out these categories and focusing on the ones that did have significant results would make the figure look less cluttered. Another recommendation that I have is to take out the differences in gear, line, and net type from the histogram. While it does show extra layers and dimensions to the results, the point of a histogram is to show frequency distributions, and I felt that adding the gear groups cluttered the figure and made it much harder to read and digest. I think that if the authors really wanted to include that information, they could add another figure to the paper to display those results in a different way.
